@@ -2,6 +2,7 @@ module Main exposing (..)
 
 import Browser
 import Html exposing (Html, button, div, text)
+import Html.Attributes exposing (class)
 import Html.Events exposing (onClick)
 
 
@@ -38,6 +39,6 @@ view : Model -> Html Msg
 view model =
     div []
         [ button [ onClick Decrement ] [ text "-" ]
-        , div [] [ text (String.fromInt model) ]
+        , div [ class "font-klee-one" ] [ text (String.fromInt model) ]
         , button [ onClick Increment ] [ text "+" ]
         ]

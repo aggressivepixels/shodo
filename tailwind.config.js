@@ -3,7 +3,11 @@
 module.exports = {
   content: ["./src/**/*.elm", "index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "klee-one": ["Klee One", "cursive"],
+      },
+    },
   },
   plugins: [],
 };
