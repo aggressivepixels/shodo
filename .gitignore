@@ -1,0 +1,12 @@
+# Elm
+elm-stuff
+repl-temp-*
+
+# Yarn
+node_modules
+yarn-debug.log*
+yarn-error.log*
+
+# Parcel
+.parcel-cache
+dist
