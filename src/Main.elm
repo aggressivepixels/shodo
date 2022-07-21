@@ -39,6 +39,6 @@ view : Model -> Html Msg
 view model =
     div []
         [ button [ onClick Decrement ] [ text "-" ]
-        , div [ class "font-klee-one" ] [ text (String.fromInt model) ]
+        , div [ class "font-epkyouka" ] [ text (String.fromInt model) ]
         , button [ onClick Increment ] [ text "+" ]
         ]

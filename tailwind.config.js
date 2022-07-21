@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "klee-one": ["Klee One", "cursive"],
+        epkyouka: ["EPKYOUKA", "sans-serif"],
       },
     },
   },
