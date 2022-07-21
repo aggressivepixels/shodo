@@ -7,4 +7,11 @@
     font-family: "EPKYOUKA";
     src: url("./assets/epkyouka.woff2") format("woff2");
   }
+
+  @media print {
+    html,
+    body {
+      @apply h-full;
+    }
+  }
 }
